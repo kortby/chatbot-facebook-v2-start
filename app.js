@@ -277,7 +277,7 @@ function handleDialogFlowAction(
             phone_number +
             '.';
 
-          //sendEmail('New job application', emailContent);
+          sendEmail('New job application', emailContent);
 
           handleMessages(messages, sender);
         } else {
